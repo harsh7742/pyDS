@@ -1,1 +1,6 @@
-
+list=[]
+for i in range(15):
+    if 2* i % 6!=0:
+        list.append(2*i)
+        
+list
